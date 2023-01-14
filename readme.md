@@ -34,8 +34,9 @@ wpnv export-db
   docker image prune
   docker image prune -a
 
-- Stop all processes: `docker ps -a -q | xargs docker rm` or
+- Stop all processes: `docker stop $(docker ps -a -q)`
 
-  docker stop $(docker ps -a -q)
-- Remove all images: `docker images -a -q | xargs docker rmi -f`
+- Remove processes: `docker rm $(docker ps -a -q)`
+  
+- Remove all images: `docker rmi $(docker images -a -q)`
 

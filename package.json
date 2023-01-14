@@ -1,6 +1,6 @@
 {
   "name": "wpnv",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A zero-config, self contained local WordPress environment for development and testing.",
   "author": "",
   "license": "GPL-2.0-or-later",
@@ -24,7 +24,7 @@
   ],
   "main": "lib/env.js",
   "bin": {
-    "wpn": "bin/wpn"
+    "wpnv": "bin/wpnv"
   },
   "dependencies": {
     "chalk": "^4.0.0",
