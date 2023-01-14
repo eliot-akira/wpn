@@ -1,5 +1,5 @@
 
-Based on `wp-env`, a package in the Gutenberg repository.
+Based on a fork of `wp-env` v5.9.0, a package in the Gutenberg repository.
 
 ## Gutenberg
 

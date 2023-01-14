@@ -1,23 +1,18 @@
 {
-	"name": "wpnv",
-	"version": "5.9.0",
+	"name": "wpn",
+	"version": "0.0.1",
 	"description": "A zero-config, self contained local WordPress environment for development and testing.",
-	"author": "The WordPress Contributors",
+	"author": "",
 	"license": "GPL-2.0-or-later",
 	"keywords": [
 		"wordpress",
-		"gutenberg",
 		"environment",
 		"docker"
 	],
-	"homepage": "https://github.com/WordPress/gutenberg/tree/HEAD/packages/env#readme",
+	"homepage": "https://github.com/#readme",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/WordPress/gutenberg.git",
-		"directory": "packages/env"
-	},
-	"bugs": {
-		"url": "https://github.com/WordPress/gutenberg/issues"
+		"url": "git+https://github.com/.git"
 	},
 	"directories": {
 		"lib": "lib",
@@ -29,7 +24,7 @@
 	],
 	"main": "lib/env.js",
 	"bin": {
-		"wpnv": "bin/wpnv"
+		"wpn": "bin/wpn"
 	},
 	"dependencies": {
 		"chalk": "^4.0.0",
