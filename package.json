@@ -44,6 +44,10 @@
 		"access": "public"
 	},
 	"scripts": {
-		"test": "echo \"Error: run tests from root\" && exit 1"
+    "format": "prettier --no-config --no-semi --single-quote --write --cache --cache-strategy metadata lib",
+		"release": "npm publish --access public"
+	},
+	"devDependencies": {
+		"prettier": "^2.8.3"
 	}
 }
