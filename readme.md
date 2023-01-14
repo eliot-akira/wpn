@@ -1,4 +1,4 @@
-# WPN - WordPress environment manager
+# WPNV - WordPress environment manager
 
 Currently being rewritten, not ready for production use.
 
@@ -11,20 +11,20 @@ Currently being rewritten, not ready for production use.
 ## Commands
 
 ```sh
-wpn
-wpn start
-wpn stop
-wpn info
-wpn shell
-wpn import-db
-wpn export-db
+wpnv
+wpnv start
+wpnv stop
+wpnv info
+wpnv shell
+wpnv import-db
+wpnv export-db
 ```
 
 ## Notes
 
 - Add watch mode to watch a folder of files and reload
 
-- Rename config file to `wpn.json`
+- Rename config file to `wpnv.json`
 
 - Add support for multiple sites 
 - Add logic to detect if another instance is already running

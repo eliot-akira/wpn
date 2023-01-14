@@ -1,53 +1,53 @@
 {
-	"name": "wpn",
-	"version": "0.0.1",
-	"description": "A zero-config, self contained local WordPress environment for development and testing.",
-	"author": "",
-	"license": "GPL-2.0-or-later",
-	"keywords": [
-		"wordpress",
-		"environment",
-		"docker"
-	],
-	"homepage": "https://github.com/#readme",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/.git"
-	},
-	"directories": {
-		"lib": "lib",
-		"test": "tests"
-	},
-	"files": [
-		"bin",
-		"lib"
-	],
-	"main": "lib/env.js",
-	"bin": {
-		"wpn": "bin/wpn"
-	},
-	"dependencies": {
-		"chalk": "^4.0.0",
-		"copy-dir": "^1.3.0",
-		"docker-compose": "^0.22.2",
-		"extract-zip": "^1.6.7",
-		"got": "^11.8.5",
-		"inquirer": "^7.1.0",
-		"js-yaml": "^3.13.1",
-		"ora": "^4.0.2",
-		"rimraf": "^3.0.2",
-		"simple-git": "^3.5.0",
-		"terminal-link": "^2.0.0",
-		"yargs": "^17.3.0"
-	},
-	"publishConfig": {
-		"access": "public"
-	},
-	"scripts": {
+  "name": "wpnv",
+  "version": "0.0.1",
+  "description": "A zero-config, self contained local WordPress environment for development and testing.",
+  "author": "",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "wordpress",
+    "environment",
+    "docker"
+  ],
+  "homepage": "https://github.com/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/.git"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "main": "lib/env.js",
+  "bin": {
+    "wpn": "bin/wpn"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "copy-dir": "^1.3.0",
+    "docker-compose": "^0.22.2",
+    "extract-zip": "^1.6.7",
+    "got": "^11.8.5",
+    "inquirer": "^7.1.0",
+    "js-yaml": "^3.13.1",
+    "ora": "^4.0.2",
+    "rimraf": "^3.0.2",
+    "simple-git": "^3.5.0",
+    "terminal-link": "^2.0.0",
+    "yargs": "^17.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
     "format": "prettier --no-config --no-semi --single-quote --write --cache --cache-strategy metadata lib",
-		"release": "npm publish --access public"
-	},
-	"devDependencies": {
-		"prettier": "^2.8.3"
-	}
+    "release": "npm publish --access public"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.3"
+  }
 }
